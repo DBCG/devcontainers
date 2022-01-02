@@ -14,8 +14,10 @@
 		"streetsidesoftware.code-spell-checker-scientific-terms",
 		"streetsidesoftware.code-spell-checker-medical-terms",
 		"shengchen.vscode-checkstyle",
-		"sonarsource.sonarlint-vscode"
+		"sonarsource.sonarlint-vscode",
+		"redhat.fabric8-analytics"
 	],
+
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
