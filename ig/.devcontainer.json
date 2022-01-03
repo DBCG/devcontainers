@@ -1,26 +1,24 @@
 {
     "name": "IG Development Container",
     "image": "contentgroup/dev-ig:latest",
-    // Set *default* container specific settings.json values on container create.
     // "settings": {
-    // 	"java.home": "/docker-java-home",
-    // 	"java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/current",
-    // 	"java.configuration.runtimes": [{
-    // 		"default": true,
-    // 		"name": "JavaSE-1.8",
-    // 		"path": "/usr/local/sdkman/candidates/java/current"
-    // 	}]
+    //     "git.path": "/usr/bin/git",
+    //     "terminal.integrated.defaultProfile.linux": "bash (-i)",
+	// 	"java.configuration.runtimes": [{
+	// 		"default": true,
+	// 		"name": "JavaSE-11",
+	// 		"path": "/usr/local/openjdk-11"
+	// 	}]
     // },
-    "settings": {
-        "git.path": "/usr/bin/git",
-        "terminal.integrated.defaultProfile.linux": "bash (-i)"
-    },
+    
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
         "vscjava.vscode-java-pack",
         "cqframework.cql",
-        "ritwickdey.liveserver"
+        "cqframework.fhir-json",
+        "ritwickdey.liveserver",
     ],
+	
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
     "forwardPorts": [
         3000
