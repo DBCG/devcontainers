@@ -2,14 +2,15 @@
     "name": "IG Development Container",
     "image": "contentgroup/dev-ig:latest",
 	"settings": {
-		"java.help.showReleaseNotes": false
+		"java.help.showReleaseNotes": false,
+        "workbench.welcomePage.walkthroughs.openOnInstall": false,
+        "workbench.startupEditor": "readme"
 	},
 
     // Add the IDs of extensions you want installed when the container is created.
     "extensions": [
         "vscjava.vscode-java-pack",
         "cqframework.cql",
-        "cqframework.fhir-json",
         "ritwickdey.liveserver",
     ],
 	
